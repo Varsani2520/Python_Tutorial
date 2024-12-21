@@ -1,0 +1,4 @@
+Hi partner
+How are you?
+This is appended using 'a+' mode.
+

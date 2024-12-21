@@ -1,0 +1,1 @@
+this is content is written using 'w+' mode .
