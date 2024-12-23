@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    <style>
+      .main {
+        background: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Welome to our tutorial</h1>
+      {% for i in course%}
+      <div>{{i}}</div>
+      {% endfor %}
+    </div>
+</br>
+    <table border="1">
+        {%for n in student%}
+      <tr>
+        <td>{{n.name}}</td>
+        <td>{{n.phone_number}}</td>
+      </tr>
+      {%endfor %}
+    </table>
+
+    <div>
+        {%for n in number %}
+        {% if n > 20 %}
+            <div>{{n}}</div>
+        {%endif%}    
+        {%endfor%}
+  </body>
+</html>
